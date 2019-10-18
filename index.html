@@ -1,549 +1,715 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta charset="UTF-8">
 	<title>ebay</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header class="main-header">
-		<a href="#" class="logo">
-			<img src="./images/logo/ebay_logo.png" alt="Логтип ebay" class="logo__img">
-		</a>
-		<form action="#" class="form-search">
-			<!--здесь будет форма-->
-		</form>
-		<ul class="user-menu">
-			<li class="user-menu__item">
-				<a href="#" class="user-menu__link">Cart</a>
-			</li>
-			<li class="user-menu__item">
-				<a href="#" class="user-menu__link">Wishlist</a>
-			</li>
-			<li class="user-menu__item">
-				<a href="#" class="user-menu__link">My Account</a>
-			</li>
-		</ul>
-		<nav class="main-menu">
-			<ul class="main-menu__list">
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Deals</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Mobile & Accessories</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Laptops & Tablets</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Fashion</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Home & Living</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Cameras</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Televisions</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Health & Beauty</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">All Electronics</a>
-				</li>
-				<li class="main-menu__item">
-					<a href="#" class="main-menu__link">Help</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<h1 class="visually-hidden">ebay</h1>
-		<aside class="main-category">
-			<h2 class="main-category__title">Shop by Category</h2>
-			<ul class="main-category__list">
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Computer</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Electronics</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Flowers & Gifts</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Furniture</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Groceries</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Health & Beauty</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Home Improvement</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Indoor Living</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Industrial Supply</a>
-				</li>
-				<li class="main-category__item">
-					<a href="#" class="main-category__link">Jewelery & Watches</a>
-				</li>
-			</ul>
-		</aside>
-		<div class="banner">
-			<ul class="banner__list">
-				<li class="banner__item">
-					<p class="banner__text">
-						<span class="banner__text-small">selling made even easier</span>
-						let selling experts<br>
-						sell for you
-					</p>
-					<a href="#" class="btn">Try eBay Valet now</a>
-				</li>
-				<li class="banner__item">
-					<p class="banner__text">
-						<span class="banner__text-small">from notepads to touchccreens</span>
-						laptops, tablets<br>
-						under $299
-					</p>
-					<a href="#" class="btn">Shop tech</a>
-				</li>
-				<li class="banner__item">
-					<p class="banner__text">
-						<span class="banner__text-small">selling made even easier</span>
-						let selling experts<br>
-						sell for you
-					</p>
-					<a href="#" class="btn">Try eBay Valet now</a>
-				</li>
-				<li class="banner__item">
-					<p class="banner__text">
-						<span class="banner__text-small">from notepads to touchccreens</span>
-						laptops, tablets<br>
-						under $299
-					</p>
-					<a href="#" class="btn">Shop tech</a>
-				</li>
-				<li class="banner__item">
-					<p class="banner__text">
-						<span class="banner__text-small">selling made even easier</span>
-						let selling experts<br>
-						sell for you
-					</p>
-					<a href="#" class="btn">Try eBay Valet now</a>
-				</li>
-				<li class="banner__item">
-					<p class="banner__text">
-						<span class="banner__text-small">from notepads to touchccreens</span>
-						laptops, tablets<br>
-						under $299
-					</p>
-					<a href="#" class="btn">Shop tech</a>
-				</li>
-			</ul>
+		<div class="container">
+			<div class="main-header__top">
+				<div class="logo">
+					<a href="#" class="logo__link">
+						<img src="./images/logo/ebay_logo.png" alt="Логтип ebay" class="logo__img">
+					</a>
+				</div>
+				<form action="#" class="form-search">
+					<label for="input-search" class="visually-hidden">Что ищем?</label>
+					<input type="text" id="input-search" class="form-search__input" placeholder="Search...">
+					<select name="categories-goods" id="" class="form-search__select-category">
+						<option value="all-categories" selected>All Categories</option>
+						<option value="camera">Camera</option>
+						<option value="bike">Bike</option>
+						<option value="clothing">Clothing</option>
+					</select>
+					<button class="btn form-search__btn" type="submit"><span class="visually-hidden">Искать</span></button>
+				</form>
+				<ul class="user-menu">
+					<li class="user-menu__item">
+						<a href="#" class="user-menu__link user-menu__link--cart">Cart</a>
+						<span class="user-menu__count">4</span>
+					</li>
+					<li class="user-menu__item">
+						<a href="#" class="user-menu__link user-menu__link--wishlist">Wishlist</a>
+						<span class="user-menu__count">27</span>
+					</li>
+					<li class="user-menu__item">
+						<a href="#" class="user-menu__link user-menu__link--account">My Account</a>
+					</li>
+				</ul>
+			</div>
+			<nav class="main-menu">
+				<ul class="main-menu__list">
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">Deals</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">Mobile & Accessories</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">Laptops & Tablets</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">Fashion</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">Home & Living</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">Cameras</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">Televisions</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">Health & Beauty</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link">All Electronics</a>
+					</li>
+					<li class="main-menu__item">
+						<a href="#" class="main-menu__link main-menu__link--help">Help</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-		<section class="feature">
-			<h2 class="feature__title">Featured Collections</h2>
-			<a href="#" class="feature__see-all">See all collections</a>
-			<div class="feature__goods">
-				<section class="product">
-					<div class="product__pictures">
-						<img src="./images/goods/camera/canon-camera.jpg" alt="фотоаппарат canon" class="product__img">
-						<img src="./images/goods/camera/pentax-lens.jpg" alt="фотоаппарат pentax" class="product__img">
-						<img src="./images/goods/camera/pentax-lens2.jpg" alt="фотоаппарат pentax" class="product__img">
-						<img src="./images/goods/camera/sony-lens.jpg" alt="фотоаппарат sony" class="product__img">
-					</div>
-					<h3 class="product__title">Camera</h3>
-					<p class="product__price">17 items from $35.5</p>
-					<a href="#" class="product__link-shop">Shop Now</a>
-				</section>
-				<section class="product">
-					<div class="product__pictures">
-						<img src="./images/goods/clothing/clothing1.jpg" alt="летняя коллекция" class="product__img">
-						<img src="./images/goods/clothing/clothing2.jpg" alt="летняя коллекция" class="product__img">
-						<img src="./images/goods/clothing/clothing3.jpg" alt="летняя коллекция" class="product__img">
-						<img src="./images/goods/clothing/clothing1.jpg" alt="летняя коллекция" class="product__img">
-					</div>
-					<h3 class="product__title">Sumer Style</h3>
-					<p class="product__price">17 items from $29.49</p>
-					<a href="#" class="product__link-shop">Shop Now</a>
-				</section>
-				<section class="product">
-					<div class="product__pictures">
-						<img src="./images/goods/bike/bike1.jpg" alt="bike" class="product__img">
-						<img src="./images/goods/bike/bike2.jpg" alt="bike" class="product__img">
-						<img src="./images/goods/bike/bike3.jpg" alt="bike" class="product__img">
-						<img src="./images/goods/bike/bike4.jpg" alt="bike" class="product__img">
-					</div>
-					<h3 class="product__title">Bike</h3>
-					<p class="product__price">8 items from $1000.99</p>
-					<a href="#" class="product__link-shop">Shop Now</a>
-				</section>
-				<section class="product">
-					<div class="product__pictures">
-						<img src="./images/goods/bags/bag1.jpg" alt="bag" class="product__img">
-						<img src="./images/goods/bags/bag2.jpg" alt="bag" class="product__img">
-						<img src="./images/goods/bags/bag3.jpg" alt="bag" class="product__img">
-						<img src="./images/goods/bags/bag4.jpg" alt="bag" class="product__img">
-					</div>
-					<h3 class="product__title">Take The Weight Off</h3>
-					<p class="product__price">11 items from $23</p>
-					<a href="#" class="product__link-shop">Shop Now</a>
-				</section>
-				<section class="product">
-					<div class="product__pictures">
-						<img src="./images/goods/watches/watches1.jpg" alt="Watches" class="product__img">
-						<img src="./images/goods/watches/watches2.jpg" alt="Watches" class="product__img">
-						<img src="./images/goods/watches/watches3.jpg" alt="Watches" class="product__img">
-						<img src="./images/goods/watches/watches4.jpg" alt="Watches" class="product__img">
-					</div>
-					<h3 class="product__title">Watches</h3>
-					<p class="product__price">14 items from $39.99</p>
-					<a href="#" class="product__link-shop">Shop Now</a>
-				</section>
-				<section class="product">
-					<div class="product__pictures">
-						<img src="./images/goods/smartphones/huawei.jpg" alt="смартфон Huawei" class="product__img">
-						<img src="./images/goods/smartphones/lg.jpg" alt="смартфон LG" class="product__img">
-						<img src="./images/goods/smartphones/lg2.jpg" alt="смартфон LG" class="product__img">
-						<img src="./images/goods/smartphones/sony-xperia.jpg" alt="смартфон Sony" class="product__img">
-					</div>
-					<h3 class="product__title">Watches</h3>
-					<p class="product__price">14 items from $39.99</p>
-					<a href="#" class="product__link-shop">Shop Now</a>
-				</section>
+	</header>
+	<main class="main">
+		<div class="container">
+			<h1 class="visually-hidden">ebay</h1>
+			<div class="top-content-column">
+				<aside class="main-category">
+					<h2 class="main-category__title">Shop by Category</h2>
+					<ul class="main-category__list">
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Computer</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Electronics</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Flowers & Gifts</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Furniture</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Groceries</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Health & Beauty</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Home Improvement</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Indoor Living</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Industrial Supply</a>
+						</li>
+						<li class="main-category__item">
+							<a href="#" class="main-category__link">Jewelery & Watches</a>
+						</li>
+					</ul>
+				</aside>
+				<div class="banner">
+					<ul class="banner__list">
+						<li class="banner__item banner__item--active">
+							<div class="banner__pos-text">
+								<p class="banner__text">
+									<span class="banner__text-small">selling made even easier</span>
+									let selling experts<br>
+									sell for you
+								</p>
+								<a href="#" class="btn banner__btn">Try eBay Valet now</a>
+							</div>
+						</li>
+						<li class="banner__item">
+							<div class="banner__pos-text">
+								<p class="banner__text">
+									<span class="banner__text-small">from notepads to touchccreens</span>
+									laptops, tablets<br>
+									under $299
+								</p>
+								<a href="#" class="btn banner__btn">Shop tech</a>
+							</div>
+						</li>
+						<li class="banner__item">
+							<div class="banner__pos-text">
+								<p class="banner__text">
+									<span class="banner__text-small">selling made even easier</span>
+									let selling experts<br>
+									sell for you
+								</p>
+								<a href="#" class="btn banner__btn">Try eBay Valet now</a>
+							</div>
+						</li>
+						<li class="banner__item">
+							<div class="banner__pos-text">
+								<p class="banner__text">
+									<span class="banner__text-small">from notepads to touchccreens</span>
+									laptops, tablets<br>
+									under $299
+								</p>
+								<a href="#" class="btn banner__btn">Shop tech</a>
+							</div>
+						</li>
+						<li class="banner__item">
+							<div class="banner__pos-text">
+								<p class="banner__text">
+									<span class="banner__text-small">selling made even easier</span>
+									let selling experts<br>
+									sell for you
+								</p>
+								<a href="#" class="btn banner__btn">Try eBay Valet now</a>
+							</div>
+						</li>
+						<li class="banner__item">
+							<div class="banner__pos-text">
+								<p class="banner__text">
+									<span class="banner__text-small">from notepads to touchccreens</span>
+									laptops, tablets<br>
+									under $299
+								</p>
+								<a href="#" class="btn banner__btn">Shop tech</a>
+							</div>
+						</li>
+					</ul>
+					<ul class="banner__nav">
+						<li class="banner__nav-item">
+							<a href="#" class="banner__nav-link">Daily Deals</a>
+						</li>
+						<li class="banner__nav-item">
+							<a href="#" class="banner__nav-link">Laptops</a>
+						</li>
+						<li class="banner__nav-item">
+							<a href="#" class="banner__nav-link">Mobile</a>
+						</li>
+						<li class="banner__nav-item">
+							<a href="#" class="banner__nav-link">Clothing</a>
+						</li>
+						<li class="banner__nav-item">
+							<a href="#" class="banner__nav-link">Kitchen Appliances</a>
+						</li>
+						<li class="banner__nav-item">
+							<a href="#" class="banner__nav-link">Gifts Vouchers</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</section>
-		<section class="daily-deals">
-			<h2 class="daily-deals__title">Daily Deals</h2>
-			<a href="#" class="daily-deals__see-more">See more</a>
-			<div class="daily-deals__buttons">
-				<button class="daily-deals__btn"><span class="visually-hidden">назад</span></button>
-				<button class="daily-deals__btn"><span class="visually-hidden">вперед</span></button>
-			</div>
-			<section class="product-sale">
-				<div class="product-sale__picture">
-					<img src="images/goods/sale/watches.png" alt="Часы Citizen" class="product-sale">
-					<p class="product-sale__discount">27% off</p>
+			<section class="feature">
+				<div class="feature__top">
+					<h2 class="feature__title">Featured Collections</h2>
+					<a href="#" class="feature__see-all">See all collections</a>
 				</div>
-				<h3 class="product-sale__title">Citizen Eco-Drive Mens Watch</h3>
-				<p class="product-sale__price">
-					<del class="product-sale__old-price">$228.90</del>
-					$260.90
-				</p>
-			</section>
-			<section class="product-sale">
-				<div class="product-sale__picture">
-					<img src="images/goods/sale/jacket.png" alt="Мужская куртка" class="product-sale">
-					<p class="product-sale__discount">50% off</p>
+				<div class="feature__goods">
+					<section class="product">
+						<div class="product__pictures">
+							<div class="product__pictures-big">
+								<img src="./images/goods/camera/canon-camera.jpg" alt="фотоаппарат canon" class="product__img">
+							</div>
+							<div class="product__pictures-list">
+								<div class="product__pictures-small">
+									<img src="./images/goods/camera/pentax-lens.jpg" alt="фотоаппарат pentax" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/camera/pentax-lens2.jpg" alt="фотоаппарат pentax" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/camera/sony-lens.jpg" alt="фотоаппарат sony" class="product__img">
+								</div>
+							</div>
+						</div>
+						<h3 class="product__title">Camera</h3>
+						<p class="product__price">17 items from $35.5</p>
+						<a href="#" class="product__link-shop">Shop Now</a>
+					</section>
+					<section class="product">
+						<div class="product__pictures">
+							<div class="product__pictures-big">
+								<img src="./images/goods/clothing/clothing1.jpg" alt="летняя коллекция" class="product__img">
+							</div>
+							<div class="product__pictures-list">
+								<div class="product__pictures-small">
+									<img src="./images/goods/clothing/clothing2.jpg" alt="летняя коллекция" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/clothing/clothing3.jpg" alt="летняя коллекция" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/clothing/clothing1.jpg" alt="летняя коллекция" class="product__img">
+								</div>
+							</div>
+						</div>
+						<h3 class="product__title">Sumer Style</h3>
+						<p class="product__price">17 items from $29.49</p>
+						<a href="#" class="product__link-shop">Shop Now</a>
+					</section>
+					<section class="product">
+						<div class="product__pictures">
+							<div class="product__pictures-big">
+								<img src="./images/goods/bike/bike1.jpg" alt="bike" class="product__img">
+							</div>
+							<div class="product__pictures-list">
+								<div class="product__pictures-small">
+									<img src="./images/goods/bike/bike2.jpg" alt="bike" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/bike/bike3.jpg" alt="bike" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/bike/bike4.jpg" alt="bike" class="product__img">
+								</div>
+							</div>
+						</div>
+						<h3 class="product__title">Bike</h3>
+						<p class="product__price">8 items from $1000.99</p>
+						<a href="#" class="product__link-shop">Shop Now</a>
+					</section>
+					<section class="product">
+						<div class="product__pictures">
+							<div class="product__pictures-big">
+								<img src="./images/goods/bags/bag1.jpg" alt="bag" class="product__img">
+							</div>
+							<div class="product__pictures-list">
+								<div class="product__pictures-small">
+									<img src="./images/goods/bags/bag2.jpg" alt="bag" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/bags/bag3.jpg" alt="bag" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/bags/bag4.jpg" alt="bag" class="product__img">
+								</div>
+							</div>
+						</div>
+						<h3 class="product__title">Take The Weight Off</h3>
+						<p class="product__price">11 items from $23</p>
+						<a href="#" class="product__link-shop">Shop Now</a>
+					</section>
+					<section class="product">
+						<div class="product__pictures">
+							<div class="product__pictures-big">
+								<img src="./images/goods/watches/watches1.jpg" alt="Watches" class="product__img">
+							</div>
+							<div class="product__pictures-list">
+								<div class="product__pictures-small">
+									<img src="./images/goods/watches/watches2.jpg" alt="Watches" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/watches/watches3.jpg" alt="Watches" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/watches/watches4.jpg" alt="Watches" class="product__img">
+								</div>
+							</div>
+						</div>
+						<h3 class="product__title">Watches</h3>
+						<p class="product__price">14 items from $39.99</p>
+						<a href="#" class="product__link-shop">Shop Now</a>
+					</section>
+					<section class="product">
+						<div class="product__pictures">
+							<div class="product__pictures-big">
+								<img src="./images/goods/smartphones/huawei.jpg" alt="смартфон Huawei" class="product__img">
+							</div>
+							<div class="product__pictures-list">
+								<div class="product__pictures-small">
+									<img src="./images/goods/smartphones/lg.jpg" alt="смартфон LG" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/smartphones/lg2.jpg" alt="смартфон LG" class="product__img">
+								</div>
+								<div class="product__pictures-small">
+									<img src="./images/goods/smartphones/sony-xperia.jpg" alt="смартфон Sony" class="product__img">
+								</div>
+							</div>
+						</div>
+						<h3 class="product__title">Watches</h3>
+						<p class="product__price">14 items from $39.99</p>
+						<a href="#" class="product__link-shop">Shop Now</a>
+					</section>
 				</div>
-				<h3 class="product-sale__title">Mens Faux-Leather Bomber Jacket</h3>
-				<p class="product-sale__price">
-					<del class="product-sale__old-price">$240.50</del>
-					$120.00
-				</p>
 			</section>
-			<section class="product-sale">
-				<div class="product-sale__picture">
-					<img src="images/goods/sale/tablet.png" alt="Планшет Dell" class="product-sale">
-					<p class="product-sale__discount">40% off</p>
+			<section class="daily-deals">
+				<div class="daily-deals__top">
+					<h2 class="daily-deals__title">Daily Deals</h2>
+					<a href="#" class="daily-deals__see-more">See more</a>
+					<div class="daily-deals__buttons">
+						<button class="daily-deals__btn daily-deals__btn--back"><span class="visually-hidden">назад</span></button>
+						<button class="daily-deals__btn daily-deals__btn--next"><span class="visually-hidden">вперед</span></button>
+					</div>
 				</div>
-				<h3 class="product-sale__title">Dell Inspiron 13.3" Touchscreen Laptop</h3>
-				<p class="product-sale__price">
-					<del class="product-sale__old-price">$799.90</del>
-					$478.90
-				</p>
-			</section>
-			<section class="product-sale">
-				<div class="product-sale__picture">
-					<img src="images/goods/sale/camera-canon.png" alt="Фотокамера Panasonic" class="product-sale">
-					<p class="product-sale__discount">75% off</p>
+				<div class="product-sale-col">
+					<section class="product-sale">
+						<div class="product-sale__picture">
+							<img src="images/goods/sale/watches.png" alt="Часы Citizen" class="product-sale__img">
+							<p class="product-sale__discount">27% off</p>
+						</div>
+						<h3 class="product-sale__title">Citizen Eco-Drive Mens Watch</h3>
+						<p class="product-sale__price">
+							<del class="product-sale__old-price">$228.90</del>
+							$260.90
+						</p>
+					</section>
+					<section class="product-sale">
+						<div class="product-sale__picture">
+							<img src="images/goods/sale/jacket.png" alt="Мужская куртка" class="product-sale__img">
+							<p class="product-sale__discount">50% off</p>
+						</div>
+						<h3 class="product-sale__title">Mens Faux-Leather Bomber Jacket</h3>
+						<p class="product-sale__price">
+							<del class="product-sale__old-price">$240.50</del>
+							$120.00
+						</p>
+					</section>
+					<section class="product-sale">
+						<div class="product-sale__picture">
+							<img src="images/goods/sale/tablet.png" alt="Планшет Dell" class="product-sale__img">
+							<p class="product-sale__discount">40% off</p>
+						</div>
+						<h3 class="product-sale__title">Dell Inspiron 13.3" Touchscreen Laptop</h3>
+						<p class="product-sale__price">
+							<del class="product-sale__old-price">$799.90</del>
+							$478.90
+						</p>
+					</section>
+					<section class="product-sale">
+						<div class="product-sale__picture">
+							<img src="images/goods/sale/camera-canon.png" alt="Фотокамера Panasonic" class="product-sale__img">
+							<p class="product-sale__discount">75% off</p>
+						</div>
+						<h3 class="product-sale__title">Panasonic Lumix DMC-GH4</h3>
+						<p class="product-sale__price">
+							<del class="product-sale__old-price">$1000.00</del>
+							$250.00
+						</p>
+					</section>
 				</div>
-				<h3 class="product-sale__title">Panasonic Lumix DMC-GH4</h3>
-				<p class="product-sale__price">
-					<del class="product-sale__old-price">$1000.00</del>
-					$250.00
-				</p>
+				<ul class="daily-deals__group-btn">
+					<li class="daily-deals__btn-item">
+						<button class="daily-deals__slider-btn">
+							<span class="visually-hidden">Выбор слайда</span>
+						</button>
+					</li>
+					<li class="daily-deals__btn-item">
+						<button class="daily-deals__slider-btn daily-deals__slider-btn--active">
+							<span class="visually-hidden">Выбор слайда</span>
+						</button>
+					</li>
+					<li class="daily-deals__btn-item">
+						<button class="daily-deals__slider-btn">
+							<span class="visually-hidden">Выбор слайда</span>
+						</button>
+					</li>
+					<li class="daily-deals__btn-item">
+						<button class="daily-deals__slider-btn">
+							<span class="visually-hidden">Выбор слайда</span>
+						</button>
+					</li>
+					<li class="daily-deals__btn-item">
+						<button class="daily-deals__slider-btn">
+							<span class="visually-hidden">Выбор слайда</span>
+						</button>
+					</li>
+				</ul>
 			</section>
-		</section>
-		<section class="trend-collections">
-			<h2 class="trend-collections__title"></h2>
-			<a href="#" class="trend-collections__see-all">Browse all trending collections</a>
-			<ul class="trend-collections__list">
-				<li class="trend-collections__item">
-					<div class="trend-collections__picture">
-						<img src="images/goods/collections/shirt.png" alt="футболка" class="trend-collections__img">
-					</div>
-					<div class="trend-collections__author">
-						<div class="trend-collections__author-photo">
-							<img src="images/author/author.jpg" alt="Автор коллекции" class="trend-collections__author-img">
+			<section class="trend-collections">
+				<div class="trend-collections__top">
+					<h2 class="trend-collections__title">Today's Trending Collections</h2>
+					<a href="#" class="trend-collections__see-all">Browse all trending collections</a>
+				</div>
+				<ul class="trend-collections__list">
+					<li class="trend-collections__item">
+						<div class="trend-collections__picture">
+							<img src="images/goods/collections/shirt.jpg" alt="футболка" class="trend-collections__img">
 						</div>
-						<div class="trend-collections__author-name">
-							<p class="trend-collections__name-collect">
-								Backyard Oasis
-							</p>
-							<p class="trend-collections__created">
-								Created by lizlamoreux
-							</p>
+						<div class="trend-collections__author">
+							<div class="trend-collections__author-photo">
+								<img src="images/author/author.jpg" alt="Автор коллекции" class="trend-collections__author-img">
+							</div>
+							<div class="trend-collections__author-name">
+								<p class="trend-collections__name-collect">
+									Backyard Oasis
+								</p>
+								<p class="trend-collections__created">
+									Created by lizlamoreux
+								</p>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="trend-collections__item">
-					<div class="trend-collections__picture">
-						<img src="images/goods/collections/inter.jpg" alt="интерьер" class="trend-collections__img">
-					</div>
-					<div class="trend-collections__author">
-						<div class="trend-collections__author-photo">
-							<img src="images/author/author.jpg" alt="Автор коллекции" class="trend-collections__author-img">
+					</li>
+					<li class="trend-collections__item">
+						<div class="trend-collections__picture">
+							<img src="images/goods/collections/inter.jpg" alt="интерьер" class="trend-collections__img">
 						</div>
-						<div class="trend-collections__author-name">
-							<p class="trend-collections__name-collect">
-								Backyard Oasis
-							</p>
-							<p class="trend-collections__created">
-								Created by lizlamoreux
-							</p>
+						<div class="trend-collections__author">
+							<div class="trend-collections__author-photo">
+								<img src="images/author/author.jpg" alt="Автор коллекции" class="trend-collections__author-img">
+							</div>
+							<div class="trend-collections__author-name">
+								<p class="trend-collections__name-collect">
+									Backyard Oasis
+								</p>
+								<p class="trend-collections__created">
+									Created by lizlamoreux
+								</p>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="trend-collections__item">
-					<div class="trend-collections__picture">
-						<img src="images/goods/collections/glass.jpg" alt="футболка" class="trend-collections__img">
-					</div>
-					<div class="trend-collections__author">
-						<div class="trend-collections__author-photo">
-							<img src="images/author/author2.jpg" alt="Автор коллекции" class="trend-collections__author-img">
+					</li>
+					<li class="trend-collections__item">
+						<div class="trend-collections__picture">
+							<img src="images/goods/collections/glass.jpg" alt="футболка" class="trend-collections__img">
 						</div>
-						<div class="trend-collections__author-name">
-							<p class="trend-collections__name-collect">
-								Backyard Oasis
-							</p>
-							<p class="trend-collections__created">
-								Created by silodrome
-							</p>
+						<div class="trend-collections__author">
+							<div class="trend-collections__author-photo">
+								<img src="images/author/author2.jpg" alt="Автор коллекции" class="trend-collections__author-img">
+							</div>
+							<div class="trend-collections__author-name">
+								<p class="trend-collections__name-collect">
+									Backyard Oasis
+								</p>
+								<p class="trend-collections__created">
+									Created by silodrome
+								</p>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="trend-collections__item">
-					<div class="trend-collections__picture">
-						<img src="images/goods/collections/hockey-puck.png" alt="Хокейная шайба" class="trend-collections__img">
-					</div>
-					<div class="trend-collections__author">
-						<div class="trend-collections__author-photo">
-							<img src="images/author/author.jpg" alt="Автор коллекции" class="trend-collections__author-img">
+					</li>
+					<li class="trend-collections__item">
+						<div class="trend-collections__picture">
+							<img src="images/goods/collections/hockey-puck.png" alt="Хокейная шайба" class="trend-collections__img">
 						</div>
-						<div class="trend-collections__author-name">
-							<p class="trend-collections__name-collect">
-								Backyard Oasis
-							</p>
-							<p class="trend-collections__created">
-								Created by lizlamoreux
-							</p>
+						<div class="trend-collections__author">
+							<div class="trend-collections__author-photo">
+								<img src="images/author/author.jpg" alt="Автор коллекции" class="trend-collections__author-img">
+							</div>
+							<div class="trend-collections__author-name">
+								<p class="trend-collections__name-collect">
+									Backyard Oasis
+								</p>
+								<p class="trend-collections__created">
+									Created by lizlamoreux
+								</p>
+							</div>
 						</div>
-					</div>
-				</li>
-			</ul>
-		</section>
+					</li>
+				</ul>
+			</section>
+		</div>
 		<section class="subscribe">
-			<h2 class="subscribe__title">Subscribe to your newsletter</h2>
-			<!--здесь будет форма-->
+			<div class="container">
+				<h2 class="subscribe__title">Subscribe to your newsletter</h2>
+				<form action="" class="subscribe__form">
+					<label for="subscribe-email" class="visually-hidden">Укажите ваш email</label>
+					<input type="email" id="subscribe-email" class="subscribe__input" placeholder="Your e-mail">
+					<button class="btn subscribe__btn" type="submit">Get started</button>
+				</form>
+			</div>
 		</section>
 	</main>
 	<footer class="main-footer">
-		<section class="main-footer__menu">
-			<div class="main-footer__nav">
-				<h2 class="main-footer__menu-title">Buy</h2>
-				<ul class="main-footer__menu-list">
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Registration</a>
+		<div class="container">
+			<section class="main-footer__menu">
+				<div class="main-footer__nav">
+					<h2 class="main-footer__menu-title">Buy</h2>
+					<ul class="main-footer__menu-list">
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Registration</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">eBay Money Back Guarantee</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Bidding & buying help</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Stores</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">eBay Local</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">eBay guides</a>
+						</li>
+					</ul>
+				</div>
+				<div class="main-footer__menu-group ">
+					<div class="main-footer__menu-nav">
+						<h2 class="main-footer__menu-title">Sell</h2>
+						<ul class="main-footer__menu-list">
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Start selling</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Learn to sell</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Business sellers</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Affiliates</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-footer__menu-nav">
+						<h2 class="main-footer__menu-title">Tools & apps</h2>
+						<ul class="main-footer__menu-list">
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Mobile apps</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Downloads</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Developers</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Security center</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">eBay official time</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="" class="main-footer__menu-link">Site map</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="main-footer__menu-group">
+					<div class="main-footer__menu-nav">
+						<h2 class="main-footer__menu-title">eBay companies</h2>
+						<ul class="main-footer__menu-list">
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">eBay Classifieds</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">StubHub</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Close5</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">See all companies</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-footer__menu-nav">
+						<h2 class="main-footer__menu-title">Stay connected</h2>
+						<ul class="main-footer__menu-list">
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">eBay's Blogs</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Facebook</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Twitter</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Google+</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="main-footer__menu-nav">
+					<h2 class="main-footer__menu-title">About eBay</h2>
+					<ul class="main-footer__menu-list">
+						<li class="main-footer__menu-item">
+						<a href="#" class="main-footer__menu-link">Company info</a>
 					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">eBay Money Back Guarantee</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Bidding & buying help</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Stores</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">eBay Local</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">eBay guides</a>
-					</li>
-				</ul>
-			</div>
-			<div class="main-footer__menu-nav">
-				<h2 class="main-footer__menu-title">Sell</h2>
-				<ul class="main-footer__menu-list">
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Start selling</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Learn to sell</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Business sellers</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Affiliates</a>
-					</li>
-				</ul>
-			</div>
-			<div class="main-footer__menu-nav">
-				<h2 class="main-footer__menu-title">Tools & apps</h2>
-				<ul class="main-footer__menu-list">
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Mobile apps</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Downloads</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Developers</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Security center</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">eBay official time</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="" class="main-footer__menu-link">Site map</a>
-					</li>
-				</ul>
-			</div>
-			<div class="main-footer__menu-nav">
-				<h2 class="main-footer__menu-title">eBay companies</h2>
-				<ul class="main-footer__menu-list">
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">eBay Classifieds</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">StubHub</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Close5</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">See all companies</a>
-					</li>
-				</ul>
-			</div>
-			<div class="main-footer__menu-nav">
-				<h2 class="main-footer__menu-title">Stay connected</h2>
-				<ul class="main-footer__menu-list">
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">eBay's Blogs</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Facebook</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Twitter</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Google+</a>
-					</li>
-				</ul>
-			</div>
-			<div class="main-footer__menu-nav">
-				<h2 class="main-footer__menu-title">About eBay</h2>
-				<ul class="main-footer__menu-list">
-					<li class="main-footer__menu-item">
-					<a href="#" class="main-footer__menu-link">Company info</a>
-				</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">News</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Investors</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Careers</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Government relations</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Advertise with us</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Policies</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Verified Rights Owner (VeRO) Program</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Tell us what you think</a>
-					</li>
-				</ul>
-			</div>
-			<div class="main-footer__menu-nav">
-				<h2 class="main-footer__menu-title">Help & Contact</h2>
-				<ul class="main-footer__menu-list">
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Resolution Center</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Seller Information Center</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Contact us</a>
-					</li>
-				</ul>
-			</div>
-			<div class="main-footer__menu-nav">
-				<h2 class="main-footer__menu-title">Community</h2>
-				<ul class="main-footer__menu-list">
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Announcements</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Answer center</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Discussion boards</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">eBay Giving Works</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">eBay Celebrity</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="#" class="main-footer__menu-link">Groups</a>
-					</li>
-					<li class="main-footer__menu-item">
-						<a href="" class="main-footer__menu-link">eBay top shared</a>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<div class="main-footer__bottom">
-			<p class="main-footer__copyrifht">Copyright © 1995-2016 eBay Inc. All Rights Reserved</p>
-			<div class="main-footer__social">
-				<p class="main-footer__slogan">main-footer</p>
-				<ul class="main-footer__social-list">
-					<li class="main-footer__social-item">
-						<a href="#" class="main-footer__social-link">facebook</a>
-					</li>
-					<li class="main-footer__social-item">
-						<a href="#" class="main-footer__social-link">Twiter</a>
-					</li>
-					<li class="main-footer__social-item">
-						<a href="#" class="main-footer__social-link">Google+</a>
-					</li>
-					<li class="main-footer__social-item">
-						<a href="#" class="main-footer__social-link">Linkidin</a>
-					</li>
-				</ul>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">News</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Investors</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Careers</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Government relations</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Advertise with us</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Policies</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Verified Rights Owner (VeRO) Program</a>
+						</li>
+						<li class="main-footer__menu-item">
+							<a href="#" class="main-footer__menu-link">Tell us what you think</a>
+						</li>
+					</ul>
+				</div>
+				<div class="main-footer__menu-group">
+					<div class="main-footer__menu-nav">
+						<h2 class="main-footer__menu-title">Help & Contact</h2>
+						<ul class="main-footer__menu-list">
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Resolution Center</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Seller Information Center</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Contact us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-footer__menu-nav">
+						<h2 class="main-footer__menu-title">Community</h2>
+						<ul class="main-footer__menu-list">
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Announcements</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Answer center</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Discussion boards</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">eBay Giving Works</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">eBay Celebrity</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="#" class="main-footer__menu-link">Groups</a>
+							</li>
+							<li class="main-footer__menu-item">
+								<a href="" class="main-footer__menu-link">eBay top shared</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<div class="main-footer__bottom">
+				<p class="main-footer__copyrifht">Copyright © 1995-2016 eBay Inc. All Rights Reserved</p>
+				<div class="main-footer__social">
+					<p class="main-footer__slogan">Stay Connected</p>
+					<ul class="main-footer__social-list">
+						<li class="main-footer__social-item">
+							<a href="#" class="main-footer__social-link main-footer__social-link--fb"><span class="visually-hidden">facebook</a>
+						</li>
+						<li class="main-footer__social-item">
+							<a href="#" class="main-footer__social-link main-footer__social-link--twitter"><span class="visually-hidden">Twitter</a>
+						</li>
+						<li class="main-footer__social-item">
+							<a href="#" class="main-footer__social-link main-footer__social-link--google"><span class="visually-hidden">Google+</a>
+						</li>
+						<li class="main-footer__social-item">
+							<a href="#" class="main-footer__social-link main-footer__social-link--in"><span class="visually-hidden">Linkidin</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</footer>
